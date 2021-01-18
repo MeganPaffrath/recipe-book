@@ -1,0 +1,16 @@
+[{
+	"recipe": "Breakfast Hash",
+	"ingredients": ["bacon", "apple", "broccoli", "2 garlic cloves", "onion", "sweet potato - white", "olive oil", "salt"],
+	"category": ["breakfast"],
+	"ovenTemp": ["400"],
+	"instructions": ["Bake bacon at 450˚F for 15 minutes", "heat oil in large frying pan", "cut up potato into small cubes, add to pan", "cut up broccoli, add to pan", "cut up onion, add to pan", "cut up apple, add to pan", "cook until ready", "crumble up bacon and mix in", "optionally add a small spoonful of bacon grease for flavor"]
+}, {
+	"recipe": "Chicken Asparagus Sheet Pan",
+	"ingredients": ["3-4 chicken thighs", "asparagus", "sweet potato - white", "Garlic", "Sage"],
+	"instructions": ["Preheat oven to 400˚F", "Cut sweet potato into small cubes", "Cut asparagus into halves", "put all ingredients sectioned out on the pan", "coat each item in olive oil, salt, and sage", "bake for around 35 minutes - until chicken reaches 165˚F"]
+}, {
+	"recipe": "Mushroom and Sweet Potato",
+	"ingredients": ["sweet potato - white", "sliced mushrooms", "yellow onion", "garlic powder", "salt"],
+	"category": ["dinner"],
+	"instructions": ["Put oven to 450˚F", "Bake for 35 minutes"]
+}]
