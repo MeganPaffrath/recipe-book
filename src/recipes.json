@@ -3,7 +3,7 @@
 	"ingredients": ["bacon", "apple", "broccoli", "2 garlic cloves", "onion", "sweet potato - white", "olive oil", "salt"],
 	"categories": ["meal", "breakfast"],
 	"ovenTemp": "400",
-	"instructions": ["Bake bacon at 450˚F for 15 minutes", "heat oil in large frying pan", "cut up potato into small cubes, add to pan", "cut up broccoli, add to pan", "cut up onion, add to pan", "cut up apple, add to pan", "cook until ready", "crumble up bacon and mix in", "optionally add a small spoonful of bacon grease for flavor"]
+	"instructions": ["Bake bacon at 400˚F for 15 minutes", "heat oil in large frying pan", "cut up potato into small cubes, add to pan", "cut up broccoli, add to pan", "cut up onion, add to pan", "cut up apple, add to pan", "cook until ready", "crumble up bacon and mix in", "optionally add a small spoonful of bacon grease for flavor"]
 }, {
 	"recipe": "Chicken Asparagus Sheet Pan",
 	"ingredients": ["3-4 chicken thighs", "asparagus", "sweet potato - white", "Garlic", "Sage"],

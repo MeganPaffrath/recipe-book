@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import recipes from "../recipes.json";
 import Recipe from "./Recipe";
 
+import "./app.css";
+
 export default function App() {
   const [type, setType] = useState("all");
 
@@ -60,7 +62,7 @@ export default function App() {
       <h1>Megan's Recipes</h1>
       <br/>
       <center>
-      <input onChange={handleChange} type="search" id="mySearch" placeholder="Search by title/ingredient/type/temperature" size="40"/>
+      <input onChange={handleChange} type="search" id="mySearch" value={type} placeholder="Search by title/ingredient/type/temperature" size="40"/>
       </center>
       <br/>
       <center>
