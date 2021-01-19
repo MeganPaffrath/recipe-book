@@ -1,6 +1,6 @@
 {
   "name": "recipe-book",
-  "homepage": "http://meganpaffrath.github.io/full-stack",
+  "homepage": "https://meganpaffrath.github.io/recipe-book/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
