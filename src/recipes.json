@@ -1,4 +1,31 @@
 [{
+	"recipe": "Roasted Chicken",
+	"ovenTemp": "400",
+	"prepTime": "15",
+	"cookTime": "70",
+	"totalTime": "85",
+	"ingredients": [
+		{"item": "chicken", "value": "1", "units": "count"},
+		{"item": "lemon", "value": "1", "units": "count"},
+		{"item": "garlic clove", "value": "16", "units": "count"},
+		{"item": "thyme", "value": "8", "units": "count"},
+		{"item": "salt", "value": "2", "units": "tsp"},
+		{"item": "pepper", "value": "2", "units": "tsp"}
+	],
+	"categories": ["protein", "oven"],
+	"instructions": [
+		"note: spice measurements are esimates - season as desired",
+		"preheat oven to 400˚F",
+		"chop up lemon into small slices and cut unpealed garlic cloves in halves",
+		"take insides out of chiken",
+		"fill bird with thyme, lemon, and garlic", 
+		"place extra lemon and garlic in dish",
+		"coat bird with pepper, salt and thyme",
+		"truss the bird",
+		"roast for 70-? minutes until internal temperature reaches 165˚F"
+
+	]
+}, {
 	"recipe": "Cod",
 	"ovenTemp": "450",
 	"prepTime": "10",
