@@ -14,9 +14,13 @@ export default function App() {
       key={recipe.recipe}
       recipe={recipe.recipe}
       ingredients={recipe.ingredients}
+      ingr={recipe.ingr}
       instructions={recipe.instructions}
       categories={recipe.categories}
       ovenTemp={ovenTemp}
+      prepTime={recipe.prepTime}
+      cookTime={recipe.cookTime}
+      totalTime={recipe.totalTime}
     />
   }
 
@@ -59,7 +63,10 @@ export default function App() {
 
   return (
     <div>
-      <h1>Megan's Recipes</h1>
+      <center>
+        <h1>Megan's Recipes</h1>
+        <p>meganpaffrath.com</p>
+      </center>
       <br/>
       <center>
       <input onChange={handleChange} type="search" id="mySearch" value={type} placeholder="Search by title/ingredient/type/temperature" size="40"/>
