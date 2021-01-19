@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/recipe-book/static/css/main.e2090bd2.chunk.css",
-    "main.js": "/recipe-book/static/js/main.1636360c.chunk.js",
-    "main.js.map": "/recipe-book/static/js/main.1636360c.chunk.js.map",
+    "main.css": "/recipe-book/static/css/main.f3aacc8b.chunk.css",
+    "main.js": "/recipe-book/static/js/main.8fc16f42.chunk.js",
+    "main.js.map": "/recipe-book/static/js/main.8fc16f42.chunk.js.map",
     "runtime-main.js": "/recipe-book/static/js/runtime-main.cbda2dcd.js",
     "runtime-main.js.map": "/recipe-book/static/js/runtime-main.cbda2dcd.js.map",
     "static/js/2.bc03b33b.chunk.js": "/recipe-book/static/js/2.bc03b33b.chunk.js",
     "static/js/2.bc03b33b.chunk.js.map": "/recipe-book/static/js/2.bc03b33b.chunk.js.map",
     "index.html": "/recipe-book/index.html",
-    "static/css/main.e2090bd2.chunk.css.map": "/recipe-book/static/css/main.e2090bd2.chunk.css.map",
+    "static/css/main.f3aacc8b.chunk.css.map": "/recipe-book/static/css/main.f3aacc8b.chunk.css.map",
     "static/js/2.bc03b33b.chunk.js.LICENSE.txt": "/recipe-book/static/js/2.bc03b33b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cbda2dcd.js",
     "static/js/2.bc03b33b.chunk.js",
-    "static/css/main.e2090bd2.chunk.css",
-    "static/js/main.1636360c.chunk.js"
+    "static/css/main.f3aacc8b.chunk.css",
+    "static/js/main.8fc16f42.chunk.js"
   ]
 }
