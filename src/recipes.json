@@ -1,4 +1,22 @@
 [{
+	"recipe": "Bacon Wrapped Pears",
+	"prepTime": "10",
+	"cookTime": "35",
+	"totalTime": "45",
+	"ingredients": [
+		{"item": "bacon", "value": "4", "units": "count"},
+		{"item": "pear", "value": "1", "units": "count"},
+		{"item": "cinnamon", "value": "1", "units": "tbsp"},
+		{"item": "toothpick (optional)", "value": "4", "units": "count"}
+	],
+	"categories": ["dessert", "hors d'oeuvre"],
+	"instructions": [
+		"preheat oven to 350˚F",
+		"wrap each pair slice with bacon - secure loose ends with toothpick (optional)",
+		"bake for around 35 minutes",
+		"let cool & enjoy warm"
+	]
+}, {
 	"recipe": "Breakfast Hash",
 	"ovenTemp": "400",
 	"prepTime": "10",
@@ -23,6 +41,39 @@
 		"crumble up bacon and mix in", 
 		"optionally add a small spoonful of bacon grease for flavor"]
 }, {
+	"recipe": "Butternut Squash Soup",
+	"ovenTemp": "400",
+	"prepTime": "10",
+	"cookTime": "60",
+	"totalTime": "70",
+	"ingredients": [
+		{"item": "butternut squash (large)", "value": "1", "units": "count"},
+		{"item": "sweet potato (large orange)", "value": "1", "units": "count"},
+		{"item": "carrot (large)", "value": "3", "units": "count"},
+		{"item": "onion", "value": "1", "units": "count"},
+		{"item": "apple", "value": "1", "units": "count"},
+		{"item": "garlic clove", "value": "4", "units": "count"},
+		{"item": "olive oil", "value": "2", "units": "tbsp"},
+		{"item": "salt", "value": "1", "units": "tsp"},
+		{"item": "pepper", "value": "1", "units": "tsp"},
+		{"item": "water or broth", "value": "3", "units": "cups"}
+	],
+	"categories": ["meal", "side", "sheet pan", "oven", "blender"],
+	"instructions": [
+		"preheat oven to 400˚F",
+		"line sheet pan",
+		"half and core squash",
+		"half onion",
+		"cut apple into quarters",
+		"put all ingredients on tray",
+		"coat items with olive oil, salt, and pepper",
+		"20 minutes in: remove garlic and apples - put in blender",
+		"40 minutes in: remove onion and carrots - put in blender and blend (add water/broth as needed)",
+		"60 minutes in: remove sweet potato and squash",
+		"put insides of sweet potato and squash in blender and blend (add water/broth as needed)",
+		"mix and season as desired"
+	]
+}, {
 	"recipe": "Chicken Asparagus Sheet Pan",
 	"ovenTemp": "400",
 	"prepTime": "10",
@@ -43,6 +94,25 @@
 		"put all ingredients sectioned out on the pan", 
 		"coat each item in olive oil, salt, and sage", 
 		"bake for around 35 minutes - until chicken reaches 165˚F"]
+}, {
+	"recipe": "Cucumber Apple Salad",
+	"prepTime": "20",
+	"cookTime": "0",
+	"totalTime": "20",
+	"ingredients": [
+		{"item": "cucumber", "value": "2", "units": "count"},
+		{"item": "apple", "value": "1", "units": "count"},
+		{"item": "lemon", "value": "1/2", "units": "count"},
+		{"item": "red onion", "value": "2", "units": "tbsp"},
+		{"item": "fresh basil", "value": "2", "units": "tbsp"},
+		{"item": "salt", "value": "1", "units": "tsp"}
+	],
+	"categories": ["salad", "side"],
+	"instructions": [
+		"Chop and mix cucumber, apple, onion, and basil",
+		"Sqeeze over lemon juice",
+		"Season with salt"
+	]
 }, {
 	"recipe": "Mushroom and Sweet Potato Sheet Pan",
 	"ovenTemp": "450",

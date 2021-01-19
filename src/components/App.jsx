@@ -14,7 +14,6 @@ export default function App() {
       key={recipe.recipe}
       recipe={recipe.recipe}
       ingredients={recipe.ingredients}
-      ingr={recipe.ingr}
       instructions={recipe.instructions}
       categories={recipe.categories}
       ovenTemp={ovenTemp}
@@ -32,7 +31,7 @@ export default function App() {
       }
       // Find by Ingredient
       for (const ingredient in recipe.ingredients) {
-        if (recipe.ingredients[ingredient].toLowerCase().includes(search.toLowerCase())) {
+        if (recipe.ingredients[ingredient].item.toLowerCase().includes(search.toLowerCase())) {
           return true;
         }
       }
@@ -62,20 +61,31 @@ export default function App() {
 
 
   return (
-    <div>
+    <div class="content">
       <center>
         <h1>Megan's Recipes</h1>
         <p>meganpaffrath.com</p>
       </center>
       <br/>
       <center>
+        <p>Search by title/ingredient/type/temperature:</p>
       <input onChange={handleChange} type="search" id="mySearch" value={type} placeholder="Search by title/ingredient/type/temperature" size="40"/>
       </center>
       <br/>
-      <center>
-        <button onClick={() => setType("meal")}>meals</button>
-        <button onClick={() => setType("snack")}>snacks</button>
+      <center className="category-btns">
         <button onClick={() => setType("all")}>all</button>
+        <button onClick={() => setType("meal")}>meal</button>
+        <button onClick={() => setType("breakfast")}>breakfast</button>
+        <button onClick={() => setType("side")}>side</button>
+        <button onClick={() => setType("salad")}>salad</button>
+        <button onClick={() => setType("dessert")}>dessert</button>
+        <button onClick={() => setType("hors d'oeuvre")}>hors d'oeuvre</button>
+        <button onClick={() => setType("oven")}>oven</button>
+        <button onClick={() => setType("blender")}>blender</button>
+        <button onClick={() => setType("stove")}>stove</button>
+        <button onClick={() => setType("sheet pan")}>sheet pan</button>
+        {/* <button onClick={() => setType("snack")}>snacks</button> */}
+        
       </center>
 
       <br/>

@@ -1,5 +1,23 @@
+:root {
+  --emph-one: rgb(70, 36, 9);
+  --bk-med: bisque;
+  --bk-white: rgb(248, 240, 230);
+}
+
 * {
   margin: 0;
+}
+
+body {
+  color: var(--emph-one);
+  background-color: var(--bk-white);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.content {
+  max-width: 900px;
 }
 
 h1 {
@@ -7,7 +25,15 @@ h1 {
 }
 
 .recipe {
-  background-color: bisque;
+  background-color: var(--bk-med);
   margin: 10px;
   padding: 10px;
+}
+
+.category-btns button {
+  color: var(--emph-one);
+  background-color: var(--bk-med);
+  border: 1px solid var(--emph-one);
+  margin: 0 5px;
+  border-radius: 5px;
 }

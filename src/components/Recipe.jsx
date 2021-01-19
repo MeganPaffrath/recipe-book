@@ -8,13 +8,10 @@ export default function Recipe({recipe, ingredients, instructions, ovenTemp, cat
   let i;
   if (categories.length > 1) {
     for (i = 0; i < (categories.length - 1); i++) {
-      console.log(categories[i]);
       categoryStr = categoryStr + categories[i] + ", ";
     }
   }
   categoryStr = categoryStr + categories[categories.length - 1];
-
-  console.log("STRING: " + categoryStr);
 
 
   return (
@@ -34,7 +31,6 @@ export default function Recipe({recipe, ingredients, instructions, ovenTemp, cat
       <ul>
       {
         ingredients.map( (item) => {
-          console.log(item);
           keyIngredient++;
           return <li key={"ingr" + keyIngredient}>
             {item.units === "count" ? (
