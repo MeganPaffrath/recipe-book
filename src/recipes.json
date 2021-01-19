@@ -1,4 +1,29 @@
 [{
+	"recipe": "Cod",
+	"ovenTemp": "450",
+	"prepTime": "10",
+	"cookTime": "15-22",
+	"totalTime": "32",
+	"ingredients": [
+		{"item": "cod (frozen fillet)", "value": "1", "units": "count"},
+		{"item": "zucchini", "value": "2", "units": "count"},
+		{"item": "rosemary", "value": "1/4", "units": "tsp"},
+		{"item": "thyme", "value": "1/4", "units": "tsp"},
+		{"item": "garlic", "value": "1/2", "units": "tsp"},
+		{"item": "lemon", "value": "1/4", "units": "tsp"},
+		{"item": "salt", "value": "1", "units": "tsp"}
+
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"preheat oven to 450˚F",
+		"chop zuchini into small peices",
+		"coat cod in olive oil, rosemary, thyme, garlic, and salt",
+		"coat zucchini in olive oil and garlic",
+		"lay lemon slice on top of fish fillet",
+		"bake for 15-22 minutes until internal temp reaches 145˚F"
+	]
+}, {
 	"recipe": "Bacon Wrapped Pears",
 	"prepTime": "10",
 	"cookTime": "35",
@@ -83,17 +108,70 @@
 		{"item": "chicken thigh", "value": "3", "units": "count"},
 		{"item": "asperagus bundle", "value": "1", "units": "count"},
 		{"item": "sweet potato (large white)", "value": "1", "units": "count"},
-		{"item": "garlic clove", "value": "2", "units": "count"},
-		{"item": "sage", "value": "2", "units": "tbsp"}
+		{"item": "garlic powder", "value": "2", "units": "tsp"},
+		{"item": "sage", "value": "2", "units": "tsp"}
 	],
 	"categories": ["meal", "sheet pan", "oven"],
 	"instructions": [
+		"note: spice measurements are esimates - season as desired",
 		"preheat oven to 400˚F", 
 		"cut sweet potato into small cubes", 
 		"cut asparagus into thirds", 
 		"put all ingredients sectioned out on the pan", 
-		"coat each item in olive oil, salt, and sage", 
+		"coat each item in olive oil, salt, garlic, and sage", 
 		"bake for around 35 minutes - until chicken reaches 165˚F"]
+}, {
+	"recipe": "Chicken Drumsticks",
+	"ovenTemp": "425",
+	"prepTime": "10",
+	"cookTime": "35",
+	"totalTime": "50",
+	"ingredients": [
+		{"item": "chicken drumstick", "value": "6", "units": "count"},
+		{"item": "olive oil", "value": "1", "units": "tbsp"},
+		{"item": "garlic powder", "value": "1", "units": "tsp"},
+		{"item": "onion powder", "value": "1", "units": "tsp"},
+		{"item": "sage", "value": "1/4", "units": "tsp"}, 
+		{"item": "oregano", "value": "1/4", "units": "tsp"}, 
+		{"item": "thyme", "value": "1/4", "units": "tsp"}, 
+		{"item": "basil", "value": "1/4", "units": "tsp"},
+		{"item": "paprika (optional)", "value": "1", "units": "tsp"},
+		{"item": "salt", "value": "1 1/2","units": "tsp"}
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"preheat oven to 425˚F",
+		"line baking sheet with foil and place wire rack on top",
+		"coat chicken in olive oil",
+		"eavenly spread seasonings",
+		"bake around 35 minutes (internal temp should reach 165˚F)"	
+	]
+}, {
+	"recipe": "Chicken Thighs",
+	"ovenTemp": "425",
+	"prepTime": "10",
+	"cookTime": "35-40",
+	"totalTime": "50",
+	"ingredients": [
+		{"item": "chicken thigh", "value": "4", "units": "count"},
+		{"item": "olive oil", "value": "1", "units": "tbsp"},
+		{"item": "garlic powder", "value": "1", "units": "tsp"},
+		{"item": "onion powder", "value": "1", "units": "tsp"},
+		{"item": "sage", "value": "1/4", "units": "tsp"}, 
+		{"item": "oregano", "value": "1/4", "units": "tsp"}, 
+		{"item": "thyme", "value": "1/4", "units": "tsp"}, 
+		{"item": "basil", "value": "1/4", "units": "tsp"},
+		{"item": "paprika (optional)", "value": "1", "units": "tsp"},
+		{"item": "salt", "value": "1 1/2","units": "tsp"}
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"preheat oven to 425˚F",
+		"line baking sheet with foil and place wire rack on top",
+		"coat chicken in olive oil",
+		"eavenly spread seasonings",
+		"bake 35-40 minutes (internal temp should reach 165˚F)"	
+	]
 }, {
 	"recipe": "Cucumber Apple Salad",
 	"prepTime": "20",
@@ -112,6 +190,53 @@
 		"Chop and mix cucumber, apple, onion, and basil",
 		"Sqeeze over lemon juice",
 		"Season with salt"
+	]
+}, {
+	"recipe": "Green Smoothie",
+	"ovenTemp": "x",
+	"prepTime": "10",
+	"cookTime": "x",
+	"totalTime": "10",
+	"ingredients": [
+		{"item": "avocado", "value": "1/2", "units": "count"},
+		{"item": "kale leaf", "value": "2", "units": "count"},
+		{"item": "apple", "value": "1", "units": "count"},
+		{"item": "ginger powder", "value": "1/4", "units": "tsp"},
+		{"item": "ice cubes", "value": "5", "units": "count"},
+		{"item": "collagen peptides", "value": "1 1/2", "units": "tsp"}
+	],
+	"categories": ["meal", "blender"],
+	"instructions": [
+		"add water or milk to blender",
+		"add kale, avocado, apple, and ginger - then blend",
+		"add ice and blend",
+		"add callogen peptides and blend to mix",
+		"enjoy"
+	]
+}, {
+	"recipe": "Lamb and Squash Spaghetti",
+	"ovenTemp": "400",
+	"prepTime": "10",
+	"cookTime": "60",
+	"totalTime": "70",
+	"ingredients": [
+		{"item": "Ground lamb", "value": "16", "units": "oz"},
+		{"item": "Spaghetti Squash (large)", "value": "1", "units": "count"},
+		{"item": "olive oil", "value": "1", "units": "tbsp"},
+		{"item": "salt", "value": "1","units": "tsp"},
+		{"item": "onion powser", "value": "1","units": "tsp"},
+		{"item": "garlic powder", "value": "1","units": "tsp"},
+		{"item": "ginger", "value": "1","units": "tsp"},
+		{"item": "sage", "value": "1","units": "tsp"}
+	],
+	"categories": ["meal", "oven", "stove", "sheet pan"],
+	"instructions": [
+		"note: spice measurements are esimates - season as desired",
+		"preheat oven to 400˚F",
+		"cut squash in half and remove seeds, coat flesh side with olive oil and spices",
+		"cook squash flesh side down for 50-60 minutes",
+		"during the last 10 minutes, cook ground meat in spices and drain",
+		"combine ground meat and scooped out spaghetti squash - add extra seasoning as desired"
 	]
 }, {
 	"recipe": "Mushroom and Sweet Potato Sheet Pan",
@@ -135,5 +260,29 @@
 		"chop onion into small cubes",
 		"mince garlic",
 		"bake for 35 minutes"
+	]
+}, {
+	"recipe": "Salmon",
+	"ovenTemp": "450",
+	"prepTime": "10",
+	"cookTime": "15-22",
+	"totalTime": "32",
+	"ingredients": [
+		{"item": "salmon (frozen fillet)", "value": "1", "units": "count"},
+		{"item": "zucchini", "value": "2", "units": "count"},
+		{"item": "thyme", "value": "1/4", "units": "tsp"},
+		{"item": "garlic", "value": "1/2", "units": "tsp"},
+		{"item": "lemon", "value": "1/4", "units": "tsp"},
+		{"item": "salt", "value": "1", "units": "tsp"}
+
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"preheat oven to 450˚F",
+		"chop zuchini into small peices",
+		"coat salmon in olive oil, rosemary, garlic, and salt",
+		"coat zucchini in olive oil and garlic",
+		"lay lemon slice on top of fish fillet",
+		"bake for 15-22 minutes until internal temp reaches 145˚F"
 	]
 }]

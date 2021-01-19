@@ -87,6 +87,7 @@ export default function App() {
             <button onClick={() => setType("all")}>all</button>
             <button onClick={() => setType("meal")}>meal</button>
             <button onClick={() => setType("breakfast")}>breakfast</button>
+            <button onClick={() => setType("protein")}>protein</button>
             <button onClick={() => setType("side")}>side</button>
             <button onClick={() => setType("salad")}>salad</button>
             <button onClick={() => setType("dessert")}>dessert</button>
