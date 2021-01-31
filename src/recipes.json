@@ -1,56 +1,4 @@
 [{
-	"recipe": "Roasted Chicken",
-	"ovenTemp": "400",
-	"prepTime": "15",
-	"cookTime": "70",
-	"totalTime": "85",
-	"ingredients": [
-		{"item": "chicken", "value": "1", "units": "count"},
-		{"item": "lemon", "value": "1", "units": "count"},
-		{"item": "garlic clove", "value": "16", "units": "count"},
-		{"item": "thyme", "value": "8", "units": "count"},
-		{"item": "salt", "value": "2", "units": "tsp"},
-		{"item": "pepper", "value": "2", "units": "tsp"}
-	],
-	"categories": ["protein", "oven"],
-	"instructions": [
-		"note: spice measurements are esimates - season as desired",
-		"preheat oven to 400˚F",
-		"chop up lemon into small slices and cut unpealed garlic cloves in halves",
-		"take insides out of chiken",
-		"fill bird with thyme, lemon, and garlic", 
-		"place extra lemon and garlic in dish",
-		"coat bird with pepper, salt and thyme",
-		"truss the bird",
-		"roast for 70-? minutes until internal temperature reaches 165˚F"
-
-	]
-}, {
-	"recipe": "Cod",
-	"ovenTemp": "450",
-	"prepTime": "10",
-	"cookTime": "15-22",
-	"totalTime": "32",
-	"ingredients": [
-		{"item": "cod (frozen fillet)", "value": "1", "units": "count"},
-		{"item": "zucchini", "value": "2", "units": "count"},
-		{"item": "rosemary", "value": "1/4", "units": "tsp"},
-		{"item": "thyme", "value": "1/4", "units": "tsp"},
-		{"item": "garlic", "value": "1/2", "units": "tsp"},
-		{"item": "lemon", "value": "1/4", "units": "tsp"},
-		{"item": "salt", "value": "1", "units": "tsp"}
-
-	],
-	"categories": ["protein", "oven", "sheet pan"],
-	"instructions": [
-		"preheat oven to 450˚F",
-		"chop zuchini into small peices",
-		"coat cod in olive oil, rosemary, thyme, garlic, and salt",
-		"coat zucchini in olive oil and garlic",
-		"lay lemon slice on top of fish fillet",
-		"bake for 15-22 minutes until internal temp reaches 145˚F"
-	]
-}, {
 	"recipe": "Bacon Wrapped Pears",
 	"prepTime": "10",
 	"cookTime": "35",
@@ -70,6 +18,7 @@
 	]
 }, {
 	"recipe": "Breakfast Hash",
+	"img": "breakfast-hash.jpeg",
 	"ovenTemp": "400",
 	"prepTime": "10",
 	"cookTime": "20",
@@ -127,6 +76,7 @@
 	]
 }, {
 	"recipe": "Chicken Asparagus Sheet Pan",
+	"img": "chicken-asparagus.jpeg",
 	"ovenTemp": "400",
 	"prepTime": "10",
 	"cookTime": "35",
@@ -171,10 +121,11 @@
 		"line baking sheet with foil and place wire rack on top",
 		"coat chicken in olive oil",
 		"eavenly spread seasonings",
-		"bake around 35 minutes (internal temp should reach 165˚F)"	
+		"bake around 20-35 minutes (internal temp should reach 165˚F)"	
 	]
 }, {
 	"recipe": "Chicken Thighs",
+	"img": "chicken-thighs.jpg",
 	"ovenTemp": "425",
 	"prepTime": "10",
 	"cookTime": "35-40",
@@ -197,10 +148,69 @@
 		"line baking sheet with foil and place wire rack on top",
 		"coat chicken in olive oil",
 		"eavenly spread seasonings",
-		"bake 35-40 minutes (internal temp should reach 165˚F)"	
+		"bake 30-40 minutes (internal temp should reach 165˚F)"	
+	]
+}, {
+	"recipe": "Chicken Soup",
+	"img": "chicken-soup.jpeg",
+	"ovenTemp": "425",
+	"prepTime": "10",
+	"cookTime": "35-40",
+	"totalTime": "50",
+	"ingredients": [
+		{"item": "chicken drumsticks", "value": "12", "units": "count"},
+		{"item": "onion - yellow", "value": "1", "units": "count"},
+		{"item": "celery bundle", "value": "1", "units": "count"},
+		{"item": "carrots", "value": "6", "units": "count"},
+		{"item": "sweet potato - white", "value": "1", "units": "count"},
+		{"item": "bay leaf", "value": "1", "units": "count"},
+		{"item": "garlic cloves", "value": "2", "units": "count"},
+		{"item": "salt", "value": "1", "units": "tbsp"},
+		{"item": "pepper", "value": "1", "units": "tsp"}
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"place drumsticks in stockpot",
+		"submerge drumsticks in water",
+		"add chopped onion, bay leaf, garlic cloves, and 1 tbsp salt",
+		"simmer until meat is falling off bone (1-2 hours)",
+		"remove chicken from pot",
+		"strain broth and put back in pot",
+		"add chopped sweet potato, chopped carrots, and chopped celery to the pot",
+		"add additional veggies if desired",
+		"simmer for around 30 minutes until vegetables are tender",
+		"remove meat from bones and set asside (optionally freeze bones to make broth again later)",
+		"when veggies are ready, add chicken back to soup and simmer for 10 minutes",
+		"add salt and pepper to taste"
+	]
+}, {
+	"recipe": "Cod",
+	"ovenTemp": "450",
+	"prepTime": "10",
+	"cookTime": "15-22",
+	"totalTime": "32",
+	"ingredients": [
+		{"item": "cod (frozen fillet)", "value": "1", "units": "count"},
+		{"item": "zucchini", "value": "2", "units": "count"},
+		{"item": "rosemary", "value": "1/4", "units": "tsp"},
+		{"item": "thyme", "value": "1/4", "units": "tsp"},
+		{"item": "garlic", "value": "1/2", "units": "tsp"},
+		{"item": "lemon", "value": "1/4", "units": "tsp"},
+		{"item": "salt", "value": "1", "units": "tsp"}
+
+	],
+	"categories": ["protein", "oven", "sheet pan"],
+	"instructions": [
+		"preheat oven to 450˚F",
+		"chop zuchini into small peices",
+		"coat cod in olive oil, rosemary, thyme, garlic, and salt",
+		"coat zucchini in olive oil and garlic",
+		"lay lemon slice on top of fish fillet",
+		"bake for 15-22 minutes until internal temp reaches 145˚F"
 	]
 }, {
 	"recipe": "Cucumber Apple Salad",
+	"img": "cucumber-apple-salad.jpeg",
 	"prepTime": "20",
 	"cookTime": "0",
 	"totalTime": "20",
@@ -242,6 +252,7 @@
 	]
 }, {
 	"recipe": "Lamb and Squash Spaghetti",
+	"img": "lamb-squash-spaghetti.jpeg",
 	"ovenTemp": "400",
 	"prepTime": "10",
 	"cookTime": "60",
@@ -266,7 +277,63 @@
 		"combine ground meat and scooped out spaghetti squash - add extra seasoning as desired"
 	]
 }, {
+	"recipe": "Lamb Squash Skillet",
+	"img": "lamb-squash-skillet.jpeg",
+	"prepTime": "10",
+	"cookTime": "35",
+	"totalTime": "45",
+	"ingredients": [
+		{"item": "olive oil", "value": "1", "units": "tbsp"},
+		{"item": "ground lamb", "value": "1", "units": "lb"},
+		{"item": "yellow onion", "value": "1", "units": "count"},
+		{"item": "garlic clove", "value": "2", "units": "count"},
+		{"item": "cinnamon powder", "value": "1", "units": "tsp"},
+		{"item": "orregano - dried", "value": "1", "units": "tbsp"},
+		{"item": "balsamic vinegar", "value": "1", "units": "tbsp"},
+		{"item": "brown mushrooms", "value": "8", "units": "oz"},
+		{"item": "squash - yellow", "value": "2", "units": "count"},
+		{"item": "baby spinach", "value": "4", "units": "cup"},
+		{"item": "salt", "value": "1", "units": "tsp"},
+		{"item": "water", "value": "1/4", "units": "cup"}
+	],
+	"categories": ["meal", "sheet pan", "oven"],
+	"instructions": [
+		"heat olive oil in skillet",
+		"start to cook lamb",
+		"chop onion, mince garlic and add to pan",
+		"add oregano, cinnamon, and balsamic to pan",
+		"add sliced mushrooms and chopped squash",
+		"add 1/4 cup water and simmer for 4-5 minutes",
+		"stir in spinach",
+		"season with salt, and cook until ready"]
+}, {
+	"recipe": "Mango Madness",
+	"img": "mango-madness.jpeg",
+	"prepTime": "20",
+	"cookTime": "0",
+	"totalTime": "20",
+	"ingredients": [
+		{"item": "mango", "value": "1", "units": "count"},
+		{"item": "avocado", "value": "1", "units": "count"},
+		{"item": "red onion", "value": "1/2", "units": "count"},
+		{"item": "cucumber", "value": "1", "units": "count"},
+		{"item": "cilantro - fresh", "value": "1", "units": "tbsp"},
+		{"item": "garlic clove", "value": "2", "units": "count"},
+		{"item": "salt", "value": "1/2", "units": "tsp"},
+		{"item": "olive oil", "value": "1", "units": "tbsp"},
+		{"item": "lime", "value": "1/2", "units": "count"}
+	],
+	"categories": ["salad", "side"],
+	"instructions": [
+		"chop mango, onion, cucumber, and avocado into small peices and add to salad bowl",
+		"chop up garlic and cilantro, add to bowl",
+		"squeeze lime juice as desired",
+		"add salt as desired",
+		"optionally add olive oil"
+	]
+}, {
 	"recipe": "Mushroom and Sweet Potato Sheet Pan",
+	"img": "mushroom-sweet-potato.jpeg",
 	"ovenTemp": "450",
 	"prepTime": "10",
 	"cookTime": "35",
@@ -278,8 +345,7 @@
 		{"item": "garlic clove", "value": "2", "units": "count"},
 		{"item": "salt", "value": "1", "units": "tsp"}
 	],
-	"categories": ["side"],
-	"category": ["dinner", "sheet pan", "oven"],
+	"categories": ["side", "sheet pan", "oven"],
 	"instructions": [
 		"preheat oven to 450˚F",
 		"line sheet pan",
@@ -287,6 +353,74 @@
 		"chop onion into small cubes",
 		"mince garlic",
 		"bake for 35 minutes"
+	]
+}, {
+	"recipe": "Not Chili",
+	"img": "not-chilli.jpeg",
+	"prepTime": "20",
+	"cookTime": "40",
+	"totalTime": "60",
+	"ingredients": [
+		{"item": "olive oil", "value": "2", "units": "tbsp"},
+		{"item": "ground turkey", "value": "1", "units": "lb"},
+		{"item": "lemon", "value": "1/4", "units": "count"},
+		{"item": "yellow onion", "value": "1", "units": "count"},
+		{"item": "garlic clove", "value": "4", "units": "count"},
+		{"item": "carrot", "value": "3", "units": "count"},
+		{"item": "zucchini - yellow", "value": "2", "units": "count"},
+		{"item": "zucchini - green", "value": "1", "units": "count"},
+		{"item": "ginger - minced", "value": "1", "units": "tbsp"},
+		{"item": "oregano - dried", "value": "2", "units": "tsp"},
+		{"item": "parsley - dried", "value": "1", "units": "tsp"},
+		{"item": "basil - dried", "value": "1", "units": "tsp"},
+		{"item": "ground turmeric", "value": "1/4", "units": "tsp"},
+		{"item": "salt", "value": "2", "units": "tsp"},
+		{"item": "coconut aminos", "value": "3", "units": "tbsp"},
+		{"item": "pumpkin puree", "value": "15", "units": "oz"},
+		{"item": "water", "value": "4", "units": "cups"}
+	],
+	"categories": ["dinner", "meal"],
+	"instructions": [
+		"heat olive oil in large stockpot",
+		"chop and begin to saute onion",
+		"chop carrots and add to pot after 5 minutes",
+		"mince garlic and add to pot - continue mixing occasionally",
+		"mix together minced ginger (1 tbsp), oregano (2 tsp), basil (1tsp), parsley (1tsp), turmeric (1 tsp), and salt (1 tsp)",
+		"after sauteing for 2 minutes - temporarily dump onion, carrots and garlic onto a plate",
+		"add turkey and spice mix to pot - cook fully",
+		"add onion mixture to meat and mix",
+		"add 4 cups of water and pumpkin puree",
+		"add chopped up zucchini",
+		"add salt (1 tsp), and coconut aminos (3 tbsp), and lemon juice from 1/4 lemon (~1 tbsp)",
+		"bring to simmer for 20 minutes"
+	]
+}, {
+	"recipe": "Roasted Chicken",
+	"img": "chicken.jpeg",
+	"ovenTemp": "400",
+	"prepTime": "15",
+	"cookTime": "70",
+	"totalTime": "85",
+	"ingredients": [
+		{"item": "chicken", "value": "1", "units": "count"},
+		{"item": "lemon", "value": "1", "units": "count"},
+		{"item": "garlic clove", "value": "16", "units": "count"},
+		{"item": "thyme", "value": "8", "units": "count"},
+		{"item": "salt", "value": "2", "units": "tsp"},
+		{"item": "pepper", "value": "2", "units": "tsp"}
+	],
+	"categories": ["protein", "oven"],
+	"instructions": [
+		"note: spice measurements are esimates - season as desired",
+		"preheat oven to 400˚F",
+		"chop up lemon into small slices and cut unpealed garlic cloves in halves",
+		"take insides out of chiken",
+		"fill bird with thyme, lemon, and garlic", 
+		"place extra lemon and garlic in dish",
+		"coat bird with pepper, salt and thyme",
+		"truss the bird",
+		"roast for 70-? minutes until internal temperature reaches 165˚F"
+
 	]
 }, {
 	"recipe": "Salmon",
