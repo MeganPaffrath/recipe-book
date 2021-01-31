@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/recipe-book/static/css/main.d554b2a2.chunk.css",
-    "main.js": "/recipe-book/static/js/main.8226b1e7.chunk.js",
-    "main.js.map": "/recipe-book/static/js/main.8226b1e7.chunk.js.map",
+    "main.css": "/recipe-book/static/css/main.49fbc05f.chunk.css",
+    "main.js": "/recipe-book/static/js/main.710982ed.chunk.js",
+    "main.js.map": "/recipe-book/static/js/main.710982ed.chunk.js.map",
     "runtime-main.js": "/recipe-book/static/js/runtime-main.cbda2dcd.js",
     "runtime-main.js.map": "/recipe-book/static/js/runtime-main.cbda2dcd.js.map",
     "static/js/2.bc03b33b.chunk.js": "/recipe-book/static/js/2.bc03b33b.chunk.js",
     "static/js/2.bc03b33b.chunk.js.map": "/recipe-book/static/js/2.bc03b33b.chunk.js.map",
     "index.html": "/recipe-book/index.html",
-    "static/css/main.d554b2a2.chunk.css.map": "/recipe-book/static/css/main.d554b2a2.chunk.css.map",
-    "static/js/2.bc03b33b.chunk.js.LICENSE.txt": "/recipe-book/static/js/2.bc03b33b.chunk.js.LICENSE.txt"
+    "static/css/main.49fbc05f.chunk.css.map": "/recipe-book/static/css/main.49fbc05f.chunk.css.map",
+    "static/js/2.bc03b33b.chunk.js.LICENSE.txt": "/recipe-book/static/js/2.bc03b33b.chunk.js.LICENSE.txt",
+    "static/media/breakfast-hash.jpeg": "/recipe-book/static/media/breakfast-hash.a66a025f.jpeg",
+    "static/media/chicken-asparagus.jpeg": "/recipe-book/static/media/chicken-asparagus.d4482325.jpeg",
+    "static/media/chicken-soup.jpeg": "/recipe-book/static/media/chicken-soup.bc2c0bcc.jpeg",
+    "static/media/chicken-thighs.jpg": "/recipe-book/static/media/chicken-thighs.412420cd.jpg",
+    "static/media/chicken.jpeg": "/recipe-book/static/media/chicken.f2ce6dda.jpeg",
+    "static/media/cucumber-apple-salad.jpeg": "/recipe-book/static/media/cucumber-apple-salad.3a99d617.jpeg",
+    "static/media/lamb-squash-skillet.jpeg": "/recipe-book/static/media/lamb-squash-skillet.934f1b36.jpeg",
+    "static/media/lamb-squash-spaghetti.jpeg": "/recipe-book/static/media/lamb-squash-spaghetti.f987963a.jpeg",
+    "static/media/mango-madness.jpeg": "/recipe-book/static/media/mango-madness.7f3b2965.jpeg",
+    "static/media/mushroom-sweet-potato.jpeg": "/recipe-book/static/media/mushroom-sweet-potato.a55b79be.jpeg",
+    "static/media/not-chilli.jpeg": "/recipe-book/static/media/not-chilli.36535af1.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.cbda2dcd.js",
     "static/js/2.bc03b33b.chunk.js",
-    "static/css/main.d554b2a2.chunk.css",
-    "static/js/main.8226b1e7.chunk.js"
+    "static/css/main.49fbc05f.chunk.css",
+    "static/js/main.710982ed.chunk.js"
   ]
 }
