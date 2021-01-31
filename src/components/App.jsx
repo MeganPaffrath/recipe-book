@@ -13,6 +13,7 @@ export default function App() {
 
     return <Recipe 
       key={recipe.recipe}
+      image={recipe.img}
       recipe={recipe.recipe}
       ingredients={recipe.ingredients}
       instructions={recipe.instructions}

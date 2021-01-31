@@ -1,6 +1,9 @@
 import React from "react";
 
-export default function Recipe({recipe, ingredients, instructions, ovenTemp, categories, prepTime, cookTime, totalTime}) {
+export default function Recipe({recipe, image, ingredients, instructions, ovenTemp, categories, prepTime, cookTime, totalTime}) {
+  // const [inList, setInList] = useState(false);
+  // setInList(recipeSelected(recipe, selectedRecipes));
+
   let keyInst = 0;
   let categoryStr = "";
   let keyIngredient = 0;
@@ -13,6 +16,10 @@ export default function Recipe({recipe, ingredients, instructions, ovenTemp, cat
   }
   categoryStr = categoryStr + categories[categories.length - 1];
 
+  let fullImage = null;
+  if (image != null) {
+    fullImage = require(`../imgs/${image}`);
+  }
 
   return (
     <div className="recipe">
@@ -26,7 +33,11 @@ export default function Recipe({recipe, ingredients, instructions, ovenTemp, cat
           <p>Prep Time: {prepTime} min, Cook Time: {cookTime} min</p>
           <p>Total Time: {totalTime} min</p>
           <p>Categories: {categoryStr}</p>
+          {(fullImage != null ? (
+            <img className="recipe-photo" src={fullImage.default} alt={image}/>
+          ) : (null))}
       </center>
+      
       <h2>Ingredients:</h2>
       <ul>
       {
@@ -54,7 +65,13 @@ export default function Recipe({recipe, ingredients, instructions, ovenTemp, cat
         }
         )}
       </ol>
-      
+      {/* {
+        inList ? (
+          <h1>Remove from list button</h1>
+        ) : (
+          <button onClick={() => updateList(inList)}>Add to list</button>
+        )
+      } */}
     </div>
     
 
